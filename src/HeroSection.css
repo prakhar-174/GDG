@@ -1,0 +1,80 @@
+/* Base styles for sparkle text */
+.sparkle-text {
+    display: inline-block;
+    position: relative;
+}
+
+/* Responsive adjustments for sparkle text */
+@media (max-width: 768px) {
+    .sparkle-text {
+        font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+}
+
+.sparkle-char {
+    display: inline-block;
+    transition: all 0.3s ease;
+    position: relative;
+    cursor: default;
+}
+
+/* Sparkle animation */
+.sparkle-char.sparkle {
+    animation: sparkleEffect 0.5s ease-in-out;
+    transform-origin: center;
+}
+
+@keyframes sparkleEffect {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.4) rotate(10deg);
+        opacity: 0.7;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+
+/* Floating animation for logo */
+.animate-float {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+/* Add subtle text shadow for better readability */
+.sparkle-text {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional hover effect for better interactivity */
+.sparkle-char:hover {
+    color: #7aa2f7;
+}
+
+/* Responsive adjustments for other text elements */
+@media (max-width: 768px) {
+    .sparkle-char {
+        font-size: 0.9rem; /* Smaller font size for mobile */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .sparkle-char {
+        font-size: 1rem; /* Medium font size for tablets */
+    }
+}
