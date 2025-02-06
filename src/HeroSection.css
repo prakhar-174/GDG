@@ -1,80 +1,58 @@
-/* Base styles for sparkle text */
-.sparkle-text {
-    display: inline-block;
-    position: relative;
+/* HeroSection.css */
+.hero-section {
+    background-color: white; 
+    color: white; 
+    position: relative; 
+    z-index: 10; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 750px; 
+    flex-direction: column; 
 }
 
-/* Responsive adjustments for sparkle text */
-@media (max-width: 768px) {
-    .sparkle-text {
-        font-size: 1.2rem; /* Smaller font size for mobile */
-    }
+.hero-image {
+    width: 100%; 
+    max-width: 2300px; 
+    height: auto; 
+    object-fit: cover; 
 }
 
-.sparkle-char {
-    display: inline-block;
-    transition: all 0.3s ease;
-    position: relative;
-    cursor: default;
+.group-members-heading {
+    margin-top: 16px;
+    margin-left: 125px;
+    font-size: 1.2rem; 
+    color: #2c3e50; 
+    text-align: left; 
+    width: 100%; 
+    padding-left: 20px; 
+    font-family: 'Arial', sans-serif; 
 }
 
-/* Sparkle animation */
-.sparkle-char.sparkle {
-    animation: sparkleEffect 0.5s ease-in-out;
-    transform-origin: center;
+.social-media-links {
+    display: flex; 
+    gap: 15px; 
+    margin-top: 10px; 
+    align-self: flex-start; 
+    margin-left: 90px; 
 }
 
-@keyframes sparkleEffect {
-    0% {
-        transform: scale(1);
-        opacity: 1;
-    }
-    50% {
-        transform: scale(1.4) rotate(10deg);
-        opacity: 0.7;
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-        opacity: 1;
-    }
+.social-link {
+    color: #3498db; 
+    text-decoration: none; 
+    font-size: 2rem; 
+    transition: color 0.3s ease;
 }
 
-/* Floating animation for logo */
-.animate-float {
-    animation: float 3s ease-in-out infinite;
+
+.social-link:hover:nth-child(1) { 
+    color: #e74c3c; 
 }
 
-@keyframes float {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+.social-link:hover:nth-child(2) { 
+    color: #0077b5; 
 }
 
-/* Add subtle text shadow for better readability */
-.sparkle-text {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-/* Additional hover effect for better interactivity */
-.sparkle-char:hover {
-    color: #7aa2f7;
-}
-
-/* Responsive adjustments for other text elements */
-@media (max-width: 768px) {
-    .sparkle-char {
-        font-size: 0.9rem; /* Smaller font size for mobile */
-    }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-    .sparkle-char {
-        font-size: 1rem; /* Medium font size for tablets */
-    }
+.social-link:hover:nth-child(3) { 
+    color: #333; 
 }
