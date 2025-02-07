@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <div className="hero-section flex flex-col items-center justify-center h-[750px]">
             <img 
-                src="/noBG.png"
+                src="/output-onlinepngtools (2).png"
                 alt="Hero" 
                 className="hero-image" 
             />

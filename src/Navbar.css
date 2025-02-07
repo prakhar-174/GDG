@@ -1,15 +1,24 @@
 .navbar {
+    width: 90%;
+    margin-left:5em;
+    margin-top: 1.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    background-color: #3498db;
+    padding: .4rem 1rem;
+    background-color: #121212;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 20;
     color: white;
+    /* border-top-left-radius: 50% */
+   
+   
+    
+    
+
 }
 
 .navbar-container {
@@ -17,6 +26,8 @@
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    
+    
 }
 
 .logo {
@@ -32,8 +43,8 @@
 
 .logo-text {
     color: white;
-    font-size: 1.8rem;
-    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    font-family:Alegreya;
 }
 
 /* Responsive styles */

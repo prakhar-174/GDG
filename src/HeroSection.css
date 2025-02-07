@@ -1,6 +1,7 @@
 /* HeroSection.css */
 .hero-section {
-    background-color: white; 
+    
+    background-color:black;
     color: white; 
     position: relative; 
     z-index: 10; 
@@ -12,10 +13,12 @@
 }
 
 .hero-image {
-    width: 100%; 
+    margin-top: 5em;
+    width:80%; 
     max-width: 2300px; 
     height: auto; 
     object-fit: cover; 
+   /* margin-left:-37em; */
 }
 
 .group-members-heading {
