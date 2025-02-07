@@ -10,7 +10,7 @@ const Navbar = () => {
 
     return (
         <>
-            <nav className="navbar">
+            <nav className=" rounded-full navbar ">
                 <div className="navbar-container">
                     <div className="logo">
                         <img src="/1.png" alt="Logo" className="logo-img" />
