@@ -37,8 +37,8 @@ const Navbar = () => {
             </nav>
             {isOpen && <div className="overlay" onClick={toggleMenu}></div>}
             <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-                <li onClick={toggleMenu}>Home</li>
-                <li onClick={toggleMenu}>About</li>
+                <li onClick={toggleMenu}><a href="#home">Home</a></li>
+                <li onClick={toggleMenu}><a href="#about">About</a></li>
                 <li onClick={toggleMenu}>Events</li>
                 <li onClick={toggleMenu}>Contact Us</li>
                 <li onClick={toggleMenu}>Join Us</li>

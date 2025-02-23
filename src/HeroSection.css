@@ -25,7 +25,7 @@
     margin-top: 16px;
     margin-left: 125px;
     font-size: 1.2rem; 
-    color: #2c3e50; 
+    color: white; 
     text-align: left; 
     width: 100%; 
     padding-left: 20px; 
@@ -49,7 +49,7 @@
 
 
 .social-link:hover:nth-child(1) { 
-    color: #e74c3c; 
+    color: crimson; 
 }
 
 .social-link:hover:nth-child(2) { 
@@ -57,5 +57,5 @@
 }
 
 .social-link:hover:nth-child(3) { 
-    color: #333; 
+    color: white; 
 }

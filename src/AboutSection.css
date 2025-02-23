@@ -1,0 +1,42 @@
+/* AboutSection.css */
+.about-section {
+    padding: 40px; 
+    background-color: #f9f9f9; 
+    color: #2c3e50; 
+    overflow: hidden; 
+}
+
+.about-heading {
+    text-align: left; 
+    font-size: 2.5rem; 
+    margin-bottom: 10px; 
+    cursor: pointer;
+}
+
+.about-content {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.about-description {
+    flex: 1; 
+    margin-right: 20px; 
+    min-width: 300px; 
+    font-size: 1.2rem;
+    /* font-weight: bolder;  */
+    color: black;
+    font-family: 'Roboto', serif;
+}
+
+.about-image {
+    flex: 1; 
+    max-width: 500px; 
+    height: auto; 
+}
+
+.about-image img {
+    width: 100%; 
+    height: auto; 
+} 

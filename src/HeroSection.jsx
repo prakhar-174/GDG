@@ -4,13 +4,13 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const HeroSection = () => {
     return (
-        <div className="hero-section flex flex-col items-center justify-center h-[750px]">
+        <div className="hero-section flex flex-col items-center justify-center h-[750px]" id="home">
             <img 
                 src="/output-onlinepngtools (2).png"
                 alt="Hero" 
                 className="hero-image" 
             />
-            <h3 className="group-members-heading mt-4">734 Group Members</h3>
+            <h3 className="group-members-heading mt-4">734+ Group Members</h3>
             <div className="social-media-links mt-4">
                 <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-link">
                     <i className="fab fa-instagram"></i>
