@@ -16,39 +16,19 @@ Google Developer Groups (GDG) On Campus ABESEC Chapter is a community of student
 
 ## 💻 Tech Stack
 
-```javascript
-const techStack = {
-    frontend: [
-        "React.js",
-        "TailwindCSS",
-        // Add more
-    ],
-    hosting: [
-        "Vercel",
-        // Add more
-    ]
-}
-```
+- Frontend: React.js ,TailwindCSS.
+- Hosting: Vercel
 
 ## 👥 Core Team
 
-```javascript
-const coreTeam = {
-    facultyAdvisor: "",
-    Organizer: "Aviral Mittal",
-    technicalLead: "Name",
-    eventCoordinator: "Name",
-    contentTeamLead: "Name"
-}
-```
+- Organizer: "Aviral Mittal"
+- Technical Lead: "Name"
+- Event Coordinator: "Name",
+- Content TeamLead: "Name"
 
 ## 📞 Connect With Us
 
-```javascript
-const socialLinks = {
-    email: "gdg.abesec@gmail.com",
-    linkedin: "https://linkedin.com/gdg-abesec",
-    twitter: "https://twitter.com/gdg_abesec",
-    instagram: "https://instagram.com/gdg_abesec"
-}
-```
+- email: "gdg.abesec@gmail.com",
+- linkedin: "https://linkedin.com/gdg-abesec",
+- twitter: "https://twitter.com/gdg_abesec",
+- instagram: "https://instagram.com/gdg_abesec"
