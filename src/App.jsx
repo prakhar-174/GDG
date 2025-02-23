@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import HeroSection from './HeroSection';
 import AboutSection from './AboutSection';
 import CommunityLeadersSection from './CommunityLeadersSection';
+import Footer from './Footer';
 
 // bg-gradient-to-br from-[#1f1b2e] via-[#2d1b3e] to-[#7aa2f7]
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <HeroSection />
             <AboutSection />
             <CommunityLeadersSection />
+            <Footer />
         </div>
     );
 }
